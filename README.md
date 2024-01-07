@@ -52,9 +52,17 @@ You can use any other terminal. I removed the blackbox header, changed the font 
 ```
 sudo pacman -S zsh zsh-completions starship
 ```
-Then change zsh to default shell using [this guide](https://wiki.archlinux.org/title/zsh#Making_Zsh_your_default_shell) (with chsh).
-Then move these config folders to ```~/.config```  so that the changes are applied.
+create a file named ```.zshenv``` in your ```~/``` folder with following lines:
+```
+ZDOTDIR="$HOME/.config/zsh"
 
+# vim:ft=zsh
+```
+Then change zsh to default shell using [this guide](https://wiki.archlinux.org/title/zsh#Making_Zsh_your_default_shell) (with chsh).
+Then move these config folders to ```~/.config```  so that the changes are applied. or you can simply just use this command:
+```
+rsync -avxHAXP --exclude '.git*' .* ~/.config
+```
 # Oteher
 I use various software such as ranger, cmus, neofatch, btop etc..., whose configs are also available in the directory. Use if needed.
 ```
