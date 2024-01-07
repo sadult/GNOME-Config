@@ -32,3 +32,12 @@ It provides the possibility of personalizing quick settings (upper right corner)
 A small cat will be added to your top bar to slow down or speed up based on CPU usage
 ### Top Bar Organizer
 It provides the possibility of moving and personalizing the items in the top bar
+
+# 
+To display the texts correctly, install one of the Nerd family fonts. [suggestion](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/DroidSansMono.zip). 
+Then go to the [GNOME Look](https://www.gnome-look.org/) site and download the desired theme or icons.
+Note:
+After downloading and extracting the theme file, move its folder to this path ```~/.themes``` and the icons folder to the ```./icons``` so that they appear in ```gnome-tweaks```.
+For my theme, I used the Dracula skin, which can be downloaded from this address. Icons can also be downloaded from this address. Extract the files and copy them to the mentioned folders. Then open gnome-tweaks. Open Appearance menu. Change the ```shell``` and ```legacy applications``` to ```Dracula``` and the icons to ```MacMojave-circle-black``` to apply the skins.
+# Terminal
+ddd
