@@ -7,12 +7,12 @@ sudo pacman -S gnome-tweaks
 ```
 Then you have to install ```extension-manager``` from aur so:
 ```
-yay -S extention-manager
+yay -S extension-manager
 ```
 After this, update the system once ``` sudo pacman -Syu ``` and then enter the [GNOME Shell Extensions](https://extensions.gnome.org/) website and install the following plugins:
 ## Plugins
 + App Icons Taskbar
-bla blac  
+...Yla blac  
 + Blur my Shell
 + Clipboard Indicator
 + Dash to Dock
