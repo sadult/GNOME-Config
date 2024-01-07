@@ -1,4 +1,4 @@
-GNOME 
+GNOME Config | Mercad's
 ======
 ![Alt text](mercad-gnome.png?raw=true "Title")
 # prerequisites
