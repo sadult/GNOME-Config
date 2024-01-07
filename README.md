@@ -12,7 +12,6 @@ yay -S extension-manager
 After this, update the system once ``` sudo pacman -Syu ``` and then enter the [GNOME Shell Extensions](https://extensions.gnome.org/) website and install the following plugins:
 ## Plugins
 + App Icons Taskbar
-...Yla blac  
 + Blur my Shell
 + Clipboard Indicator
 + Dash to Dock
@@ -22,3 +21,7 @@ After this, update the system once ``` sudo pacman -Syu ``` and then enter the [
 + Quick Setting Tweaker
 + RunCat
 + Top Bar Organizer
+1. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
