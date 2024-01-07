@@ -53,10 +53,10 @@ You can use any other terminal. I removed the blackbox header, changed the font 
 sudo pacman -S zsh zsh-completions starship
 ```
 Then change zsh to default shell using [this guide](https://wiki.archlinux.org/title/zsh#Making_Zsh_your_default_shell) (with chsh).
-Then transfer config files inside the ```.config``` to ```~/.config```  so that the changes are applied.
+Then move these config folders to ```~/.config```  so that the changes are applied.
 
 # Oteher
-I use various software such as ranger (File Manager), cmus (Music Player), neofatch, etc..., whose configs are also available in the directory. Use if needed.
+I use various software such as ranger, cmus, neofatch, btop etc..., whose configs are also available in the directory. Use if needed.
 ```
 sudo pacman -S ranger cmus neofetch
 ```
