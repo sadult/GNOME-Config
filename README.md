@@ -42,4 +42,15 @@ It provides the possibility of moving and personalizing the items in the top bar
 + Icons can also be downloaded from this address.
 4. Extract the files and copy them to the mentioned folders. Then open ```gnome-tweaks > Appearance``` menu. Change the ```shell``` and ```legacy applications``` to ```Dracula``` and the icons to ```MacMojave-circle-black``` to apply the skins.
 # Terminal
-ddd
+For terminal i use ```Black Box``` which can be installed from:
+```
+yay -S blackbox-terminal
+```
+You can use any other terminal. I removed the blackbox header, changed the font and made the background a little transparent.
+إ
+
+# Oteher
+I use various software such as ranger (File Manager), cmus (Music Player), neofatch, etc..., whose configs are also available in the directory. Use if needed.
+```
+sudo pacman -S ranger cmus neofetch
+```
