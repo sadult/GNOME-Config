@@ -1,5 +1,6 @@
 GNOME 
 ======
+![Alt text](mercad-gnome.png?raw=true "Title")
 # prerequisites
 Before doing anything, we need to install the essential GNOME packages. Therefore, install ```gnome-tweaks``` with the package manager of your distribution (here we are working on Arch Linux) so:
 ```
@@ -65,6 +66,7 @@ rsync -avxHAXP --exclude '.git*' .* ~/.config
 ```
 # Oteher
 I use various software such as ranger, cmus, neofatch, btop etc..., whose configs are also available in the directory. Use if needed.
++ conky clock theme will be added soon. you can install conky via ```sudo pacman -S conky``` 
 ```
 sudo pacman -S ranger cmus neofetch
 ```
