@@ -47,7 +47,13 @@ For terminal i use ```Black Box``` which can be installed from:
 yay -S blackbox-terminal
 ```
 You can use any other terminal. I removed the blackbox header, changed the font and made the background a little transparent.
-إ
++ For terminal I have used Zash and Starship.
++ install ```zsh``` and ```starship``` 
+```
+sudo pacman -S zsh zsh-completions starship
+```
+Then change zsh to default shell using [this guide](https://wiki.archlinux.org/title/zsh#Making_Zsh_your_default_shell) (with chsh).
+Then transfer config files inside the ```.config``` to ```~/.config```  so that the changes are applied.
 
 # Oteher
 I use various software such as ranger (File Manager), cmus (Music Player), neofatch, etc..., whose configs are also available in the directory. Use if needed.
