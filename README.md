@@ -48,7 +48,7 @@ For terminal i use ```Black Box``` which can be installed from:
 yay -S blackbox-terminal
 ```
 You can use any other terminal. I removed the blackbox header, changed the font and made the background a little transparent.
-+ For terminal I have used Zash and Starship.
++ For terminal I have used zshell and Starship.
 + install ```zsh``` and ```starship``` 
 ```
 sudo pacman -S zsh zsh-completions starship
@@ -64,7 +64,7 @@ Then move these config folders to ```~/.config```  so that the changes are appli
 ```
 rsync -avxHAXP --exclude '.git*' .* ~/.config
 ```
-# Oteher
+# Other
 I use various software such as ranger, cmus, neofatch, btop etc..., whose configs are also available in the directory. Use if needed.
 + conky clock theme will be added soon. you can install conky via ```sudo pacman -S conky``` 
 ```
